@@ -1,7 +1,7 @@
 [submodule "src/external/rawspeed"]
 	path = src/external/rawspeed
-	url = https://github.com/darktable-org/rawspeed.git
-	branch = develop
+	url = https://github.com/phwimmer/rawspeed.git
+	branch = om-system
 [submodule "src/external/OpenCL"]
 	path = src/external/OpenCL
 	url = https://github.com/KhronosGroup/OpenCL-Headers.git
@@ -16,4 +16,8 @@
 	url = https://github.com/darktable-org/darktable-tests.git
 [submodule "src/external/LibRaw"]
 	path = src/external/LibRaw
-	url = https://github.com/LibRaw/LibRaw.git
+    url = https://github.com/LibRaw/LibRaw.git
+[submodule "src/external/gtk"]
+	path = src/external/gtk
+    url = https://github.com/GNOME/gtk.git
+    branch = gtk-3-24
